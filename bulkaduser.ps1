@@ -1,0 +1,1 @@
+Get-ADUser -Filter * -SearchBase "DC=PKI,DC=local" -Properties * | Export-Csv c:\Report\testuser.csv
